@@ -55,6 +55,7 @@ public class Exercise8_9 {
                 temp1 = changeX(input.nextInt());
                 System.out.print("Enter a column (0, 1, or 2) for player 0:");
                 temp2 = changeY(input.nextInt());
+                turn = checkPosition(game,temp1,temp2);
                 if(turn == true){
                     game[temp1][temp2] = "0";
                     temp++;
