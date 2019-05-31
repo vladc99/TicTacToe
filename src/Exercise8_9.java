@@ -46,6 +46,11 @@ public class Exercise8_9 {
                 win = checkWin(game);
                 if(win == true)
                     System.out.println("X won!");
+                
+                if(temp == 9 && turn == false){
+                System.out.println("DRAW!");
+                turn = true;
+                }
             }
         }
         else{
